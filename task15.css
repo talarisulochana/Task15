@@ -1,0 +1,42 @@
+input[type="password"]
+{
+    background-color: aqua;
+    color: red;
+    padding: 3rem;
+}
+::placeholder{
+    font-size: 30px;
+}
+label[for="name"]{
+    font-family: 'Courier New';
+    font-weight: 800;
+    font-size: 30px;
+}
+a[href^="https"]{
+    font-size: 50px;
+}
+p::first-line{
+    font-size: 30px;
+    background-color:yellow;
+
+}
+
+
+
+
+p::first-line {
+        color: #ff0000;
+        font-size: xx-large;
+      }
+
+      p::first-letter {
+        color: #ff0000;
+        font-size: xx-large;
+      }
+
+      h1::before {
+        content: url(smiley.gif);
+      }
+
+
+      

@@ -1,0 +1,7 @@
+@import url("./task15.css");
+:root{--black_color:green;
+--text-color:var(--black_color);
+--font-h1:3em;}
+
+body{background-color: var(--black_color);
+border: 2px solid blueviolet;}
